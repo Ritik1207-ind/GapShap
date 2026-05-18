@@ -1,6 +1,12 @@
 # ✨ GapShap — Premium Real-Time Glassmorphism Chat (Client)
 
-![GapShap Banner](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop)
+<div align="center">
+  <img src="./public/chat_preview.png" alt="GapShap Chat Preview" width="800" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px;" />
+  <br />
+  <img src="./public/auth_preview.png" alt="GapShap Auth Preview" width="800" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+</div>
+
+<br />
 
 This directory contains the frontend React application for **GapShap**, built with Vite, TailwindCSS, and Socket.IO-client.
 

@@ -1,6 +1,12 @@
 # ✨ GapShap — Premium Real-Time Glassmorphism Chat
 
-![GapShap Banner](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop)
+<div align="center">
+  <img src="./client/public/chat_preview.png" alt="GapShap Chat Preview" width="800" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px;" />
+  <br />
+  <img src="./client/public/auth_preview.png" alt="GapShap Auth Preview" width="800" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+</div>
+
+<br />
 
 **GapShap** is a state-of-the-art, high-fidelity real-time chat application designed to deliver an immersive, premium communication experience. Built with a robust MERN stack (MongoDB, Express, React, Node.js) and powered by Socket.IO, GapShap seamlessly bridges high-performance real-time messaging with cutting-edge modern web aesthetics.
 
@@ -28,7 +34,7 @@ Unlike traditional flat dark-mode applications, GapShap is engineered around a s
 ### 🚀 High-Performance Real-Time Engine (Socket.IO)
 * **Zero-Lag Mutable Ref Pattern**: To prevent React re-render cycles from dropping active WebSocket connections, socket listeners utilize advanced mutable ref bridging. This guarantees zero dropped messages even when rapidly switching between active rooms and DMs.
 * **Live Typing Indicators**: Broadcasts real-time typing events (`typing_start` / `typing_stop`) across rooms and DMs, displaying animated, non-intrusive typing pills to keep conversations feeling active and alive.
-* **Instant Online Presence**: Dynamically tracks user disconnects and reconnects, keeping the right-hand `UserList` panel perfectly synchronized with active online counts.
+* **Instant Online Presence**:: Dynamically tracks user disconnects and reconnects, keeping the right-hand `UserList` panel perfectly synchronized with active online counts.
 
 ### 🛡️ Bulletproof Frontend & Security
 * **Rock-Solid Viewport Locking**: Engineered to bypass browser GPU compositing conflicts and flexbox collapse bugs, ensuring the UI stays rigidly locked to 100% viewport dimensions without unwanted scrollbars or clipping.
