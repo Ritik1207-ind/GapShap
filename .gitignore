@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Database & AI assistant storage
+mongodb-data/
+mongodb-bin/
+.gemini/
+.tempmediaStorage/
+brain/
+knowledge/
+scratch/
+lint_output.txt
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env files
+.env
+.env.*
+!.env.example
