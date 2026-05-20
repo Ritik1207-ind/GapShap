@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { X, Search, User as UserIcon } from 'lucide-react';
-
-const API_URL = 'http://localhost:5000/api';
+import { API_URL } from '../config';
 
 const UserBrowser = ({ onClose, onStartDM, token }) => {
   const [users, setUsers] = useState([]);

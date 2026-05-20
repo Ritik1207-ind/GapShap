@@ -14,8 +14,7 @@ import UserList from './components/UserList';
 import RoomBrowser from './components/RoomBrowser';
 import UserBrowser from './components/UserBrowser';
 import CreateRoomModal from './components/CreateRoomModal';
-
-const API_URL = 'http://localhost:5000/api';
+import { API_URL } from './config';
 
 function App() {
   const { user, token, loading, error, register, login, logout, setError } = useAuth();

@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { X, Search, Hash } from 'lucide-react';
-
-const API_URL = 'http://localhost:5000/api';
+import { API_URL } from '../config';
 
 const RoomBrowser = ({ onClose, onJoin, userRooms }) => {
   const [allRooms, setAllRooms] = useState([]);
